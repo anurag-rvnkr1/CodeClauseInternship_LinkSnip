@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/LinkSnip/main/demo.gif" alt="LinkSnip Demo Video" width="800">
+  <img src="https://github.com/anurag-rvnkr1/CodeClauseInternship_LinkSnip/blob/main/screenshots/demo.gif" alt="LinkSnip Demo Video" width="800">
 </p>
 
 <p align="center">
@@ -24,15 +24,7 @@
 
 ---
 
-## ✨ Demo Video
 
-<p align="center">
-  <a href="https://youtu.be/demo-video-link">
-    <img src="https://img.youtube.com/vi/demo-video-id/maxresdefault.jpg" alt="Watch the demo video" width="500">
-  </a>
-</p>
-
-> Click the image above to watch a full demonstration of LinkSnip's features!
 
 ## 🚀 Features
 
@@ -97,8 +89,8 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/LinkSnip.git
-   cd LinkSnip
+   git clone https://github.com/anurag-rvnkr/CodeClauseInternship_LinkSnip.git
+   cd CodeClauseInternship_LinkSnip
    ```
 
 2. **Create and activate a virtual environment**
@@ -187,17 +179,17 @@ flask init-db
 
 ### Homepage
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/LinkSnip/main/screenshots/homepage.png" alt="Homepage" width="600">
+  <img src="https://github.com/anurag-rvnkr1/CodeClauseInternship_LinkSnip/blob/main/screenshots/landing%20page.png" alt="Homepage" width="600">
 </p>
 
 ### Dashboard
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/LinkSnip/main/screenshots/dashboard.png" alt="Dashboard" width="600">
+  <img src="https://github.com/anurag-rvnkr1/CodeClauseInternship_LinkSnip/blob/main/screenshots/dashboard.png" alt="Dashboard" width="600">
 </p>
 
 ### Analytics
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/LinkSnip/main/screenshots/analytics.png" alt="Analytics" width="600">
+  <img src="https://github.com/anurag-rvnkr1/CodeClauseInternship_LinkSnip/blob/main/screenshots/site%20analysis.png" alt="Analytics" width="600">
 </p>
 
 ## 🔧 Advanced Commands
@@ -241,14 +233,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Anurag-Revankar](https://github.com/anurag-rvnkr1)
+- LinkedIn: [Anurag-Revankar](https://linkedin.com/in/anu-rvnkr-m416g)
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+  Made with ❤️ by <a href="https://github.com/anurag-rvnkr1">Anurag Revankar</a>
 </p>
 
 <p align="center">
