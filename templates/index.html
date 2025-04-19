@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} - Shorten Your Links{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="card text-center">
+            <div class="card-header">
+                <h2><i class="fas fa-link"></i> LinkSnip</h2>
+                <p>Professional URL Shortener with Advanced Analytics</p>
+            </div>
+            <div class="card-body py-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h1 class="mb-4 fw-bold" style="display:inline-block; background: linear-gradient(30deg, #7C3AED, #3B82F6); -webkit-text-fill-color: transparent; -webkit-background-clip: text; "><span>Transform Long URLs into Powerful Short Links</span></h1>
+                        <p class="lead mb-5">Create trackable shortened URLs with comprehensive analytics and insights to optimize your link performance.</p>
+                        
+                        {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('dashboard') }}" class="btn btn-primary btn-lg px-5 py-3">
+                            <i class="fas fa-tachometer-alt me-2"></i> Go to Your Dashboard
+                        </a>
+                        {% else %}
+                        <div class="d-grid gap-3 col-md-8 mx-auto">
+                            <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg py-3">
+                                <i class="fas fa-sign-in-alt me-2"></i> Sign In to Your Account
+                            </a>
+                            <a href="{{ url_for('register') }}" class="btn btn-outline-primary btn-lg py-3">
+                                <i class="fas fa-user-plus me-2"></i> Create New Account
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-muted py-4">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5 class="text-muted"  style= "background: linear-gradient(30deg, #ffffff, #cecfd0); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Enterprise-Grade Security</h5>
+                        <p class="text" style= "background: linear-gradient(30deg, #7C3AED, #3B82F6); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Secure user authentication and data protection for all your shortened links</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5 class="text-muted"  style= "background: linear-gradient(30deg, #ffffff, #cecfd0); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Comprehensive Analytics</h5>
+                        <p class="text-muted"  style= "background: linear-gradient(30deg, #7C3AED, #3B82F6); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Track clicks, referrers, user agents and detailed visitor information</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h5 class="text-muted"  style= "background: linear-gradient(30deg, #ffffff, #cecfd0); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Lightning Fast Redirects</h5>
+                        <p class="text-muted"  style= "background: linear-gradient(30deg, #7C3AED, #3B82F6); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">Optimized performance for immediate redirection and tracking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
